@@ -1,0 +1,44 @@
+---
+layout: default
+baseurl: /people
+title: People
+description: People in PEACH Lab
+---
+
+{% assign people = site.data.people.people %}
+
+<div class="container py-5">
+  <h2 class="mb-4" style="text-transform: uppercase;">Faculty</h2>
+  <div class="row">
+    {% for person in people %}
+      {% if person.role == "Faculty" %}
+        <div class="col-12 col-md-4 mb-4">
+          <div class="card border-0">
+            <img src="{{ person.image }}" class="card-img-top" alt="{{ person.name }}">
+            <div style="background-color: '{{ person.color }}'; color: white; padding: 12px;">
+              <h5 class="mb-1" style="font-weight: 500;">{{ person.name }}</h5>
+              <p class="mb-0" style="font-size: 0.9rem;"><i class="fas fa-envelope"></i> {{ person.email }}</p>
+            </div>
+          </div>
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+
+  <h2 class="mt-5 mb-4" style="text-transform: uppercase;">Ph.D. Students</h2>
+  <div class="row">
+    {% for person in people %}
+      {% if person.role == "PhD" %}
+        <div class="col-12 col-md-4 mb-4">
+          <div class="card border-0">
+            <img src="{{ person.image }}" class="card-img-top" alt="{{ person.name }}">
+            <div style="background-color: '{{ person.color }}'; color: white; padding: 12px;">
+              <h5 class="mb-1" style="font-weight: 500;">{{ person.name }}</h5>
+              <p class="mb-0" style="font-size: 0.9rem;"><i class="fas fa-envelope"></i> {{ person.email }}</p>
+            </div>
+          </div>
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>
