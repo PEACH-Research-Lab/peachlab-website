@@ -1,27 +1,16 @@
-# Donghoon's theme
+# PEACH Lab Website
 
-<a href="https://jekyll-themes.com/[GITHUB USER NAME]/[GITHUB REPOSITORY NAME]">
-  <img
-    src="https://img.shields.io/badge/featured%20on-JT-red.svg"
-    height="20"
-    alt="Jekyll Themes Shield"
-  />
-</a>
+This repository contains the codebase of Northeastern PEACH Lab website.
 
-This repository contains the codebase of Donghoon's website.
-
-![website_md](https://user-images.githubusercontent.com/28855330/204675255-dad28519-f4ea-4426-bc55-0f3aaa976db8.jpg)
-
-## Website examples that build on this theme
-
-- [Columbia HCI Group](https://columbiahci.github.io/) (Columbia CS)
-- [Prosocial Computing Group](https://prosocialcomputing.com) (University of Washington)
-- [Ruoxi (Anna) Shang](https://ruoxishang.com) (University of Washington)
-- [Tao Long](https://cs.columbia.edu/~long) (Columbia University)
-
-## Adding contents
+## Adding People
 
 > Note: Be careful to indent properly while adding your contents into `.yml` file
+
+## Adding Research Area
+
+## Adding Publications
+
+## Adding Projects
 
 ## Test & Deploy
 
@@ -37,4 +26,3 @@ This repository contains the codebase of Donghoon's website.
 
 ## Contact
 
-dhoon (at) uw (dot) edu
