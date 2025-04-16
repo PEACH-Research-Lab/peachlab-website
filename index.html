@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Northeastern University PEACH Lab
+title: PEACH Lab
 ---
 
 {% assign areas = site.data.research-area.area %}
@@ -9,12 +9,12 @@ title: Northeastern University PEACH Lab
 
 <div class="container py-3">
     <div class="row">
-        <div class="col-12 col-sm-5 col-lg-4 col-xl-4 align-self-center pt-0 pt-md-4 mb-4 mb-md-0">
+        <!-- <div class="col-12 col-sm-5 col-lg-4 col-xl-4 align-self-center pt-0 pt-md-4 mb-4 mb-md-0">
             <img src="{{ '/assets/images/main/peachlab.svg' | relative_url }}" alt="" style="height: auto; width: 90%; border-radius: 15px;">
-        </div>
+        </div> -->
         <div class="col-12 col-sm-7 col-lg-8 col-xl-8 align-self-center">
-            <p class="paragraph">We are PEACH(Privacy-Enabling AI and Computer-Human Interaction) Lab at the <a href="https://neu.edu"><img class="logo" src="{{ 'assets/images/logo/neu.svg' | relative_url }}"/>Northeastern University</a>.</p>
-            <p class="paragraph">We are a group of researchers passionate about exploring the intersection of HCI, AI, and privacy. We believe that addressing privacy issues raised by AI requires not only model-centered approaches—approaches that improve the models—but also human-centered approaches—approaches that empower people.</p>
+            <p class="paragraph">We are PEACH (<strong style="font-weight: 500 !important;">P</strong>rivacy-<strong style="font-weight: 500 !important;">E</strong>nabling <strong style="font-weight: 500 !important;">A</strong>I and <strong style="font-weight: 500 !important;">C</strong>omputer-<strong style="font-weight: 500 !important;">H</strong>uman Interaction) Lab at the <a href="https://neu.edu"><img class="logo" src="{{ 'assets/images/logo/neu.svg' | relative_url }}"/>Northeastern University</a>.</p>
+            <p class="paragraph">We are a group of researchers passionate about exploring the intersection of HCI, AI, and privacy. <br> We believe that addressing privacy issues raised by AI requires not only model-centered approaches—approaches that improve the models—but also human-centered approaches—approaches that empower people.</p>
             <p class="paragraph">Our work has been supported by the following funding agencies: National Science Foundation, Google, and CMU CyLab.</p>
         </div>
     </div>
@@ -66,8 +66,7 @@ title: Northeastern University PEACH Lab
 
     <div class="col-12 col-sm-8">
         {% assign counter = 0 %}
-        {% assign color = '#C8102E, #379DD4, #61BA84, #E1B917' | split: ', ' %}
-
+        {% assign color = '#EC0B33, #379DD4, #61BA84, #E1B917' | split: ', ' %}
         <div class="container pt-4">
             {% for group in site.data.people.people %}
                 <p style="font-weight: 500 !important; text-transform: uppercase;">{{ group.type }}</p>

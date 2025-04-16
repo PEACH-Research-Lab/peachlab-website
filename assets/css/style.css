@@ -9,17 +9,27 @@
 	--primary-color: #b9c6d2;
 	--secondary-color: #d0dde9;
 	--tertiary-color: #edf0f8;
-	--accent-color: #ff3e00;
+	--accent-color: #EC0B33;
 	--heading-color: rgba(0, 0, 0, 0.7);
 	--text-color: #444444;
 	--background-without-opacity: rgba(255, 255, 255, 0.7);
 	--column-width: 42rem;
 	--column-margin-top: 4rem;
+	--header-height: 4rem; 
+	--content-top: calc(var(--header-height) + 5rem);
 }
 
-html {
-	background-color: #C8102E
-}
+header,
+  .navbar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: var(--header-height);
+	z-index: 1000;
+	background: var(--pure-white); /* match your design */
+  }
+  
 
 body {
 	font-size: 1rem;
@@ -32,15 +42,28 @@ body {
 	font-weight: 300 !important;
 	font-size: .95rem;
 }
+
+.header-content {
+	padding: 2rem 10rem 0 10rem !important;
+}
+
 .page-content {
-	padding: 0 10rem !important;
+	padding: var(--content-top) 10rem 0 10rem !important;
 }
+
+
 footer {
-    background-color: #C8102E;
-    color: white;
+	background: linear-gradient(
+	  to right,
+	  #EC0B33,
+	  #FDB36D
+	);
+  
+	color: white;
 	padding: 2rem 10rem !important;
-    margin-top: 2rem;
-}
+	margin-top: 2rem;
+  }
+  
 ::-moz-selection {
 	color: #333;
 	background: rgb(221, 221, 221);
@@ -209,7 +232,7 @@ h4 {
 .pdf-link {
   margin-top: 0.5rem;
   font-size: 1.25rem;
-  color: #C8102E;
+  color: #EC0B33;
   align-self: flex-end;
 }
 .pdf-link:hover {

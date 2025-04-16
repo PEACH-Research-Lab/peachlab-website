@@ -1,4 +1,10 @@
 list: # format date as dd/mm/yyyy
-  - title: "Joining program committee for IUI 2025"
+  - title: "Example news title"
     date: "14/10/2024"
-    description: "I'll be serving as a program committee member for <a href='https://iui.acm.org/2025/'>IUI 2025</a>"
+    description: "Example news description!!"
+  - title: "Example news title"
+    date: "14/10/2024"
+    description: "Example news description!!"
+  - title: "Example news title"
+    date: "14/10/2024"
+    description: "Example news description!!"
