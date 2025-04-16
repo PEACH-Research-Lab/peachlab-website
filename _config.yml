@@ -1,25 +1,19 @@
-title: Donghoon Shin
+title: Northeastern University PEACH Lab
 author:
-  name: Donghoon Shin
-  email: dhoon@uw.edu
+  name: Northeastern University PEACH Lab
+  email: 
 description: > # this means to ignore newlines until "show_excerpts:"
-  Donghoon Shin is a first-year Ph.D. student in HCDE at the Unviersity of Washington
+  PEACH Lab is a research lab at the Northeastern University
+
+url: "" # the base hostname & protocol for your site
 
 show_excerpts: false # set to true to show excerpts on the homepage
 
-permalink: /:title
-
-url: "https://donghoon.io" # the base hostname & protocol for your site
-  
 # Minima date format
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
 plugins:
  - jekyll-feed
  - jekyll-seo-tag
  - jekyll-sitemap
-
-collections:
-  publication:
-    output: true
 
 theme: minima

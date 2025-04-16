@@ -1,37 +1,57 @@
 people:
-  - name: Tianshi Li
-    role: Faculty
-    email: tia.li@northeastern.edu
-    affiliation: Northeastern University
-    website: "https://tianshili.me/"
-    image: "assets/images/people/tianshi.jpg"
-    color: "#000000"
-  - name: Zhiping (Arya) Zhang
-    role: ""
-    email: ""
-    affiliation: University of Washington
-  - name: Zeya Chen
-    role: ""
-    email: ""
-    affiliation: University of Washington
-  - name: Bingcan (Gloria) Guo
-    role: ""
-    email: ""
-    affiliation: University of Washington
-  - name: William Namgyal
-    role: ""
-    email: ""
-    affiliation: University of Washington
-  - name: Yaoyao Wu
-    role: ""
-    email: ""
-    affiliation: University of Washington
-  - name: Eryue (Yolanda) Xu
-    role: ""
-    email: ""
-    affiliation: University of Washington
-  - name: Jijie (Gigi) Zhou
-    role: ""
-    email: ""
-    affiliation: University of Washington
-  
+  - type: "Principal Investigator"
+    list:
+      - name: Tianshi Li
+        website: 
+        email: 
+        image: 
+        member_since: 2023
+  - type: "Ph.D. Students"
+    list:
+      - name: Zhiping(Arya) Zhang
+        website:
+        email: 
+        image: 
+        member_since: 2024
+      - name: Jianing Wen
+        website: 
+        email: 
+        image: 
+        member_since: 2025
+      - name: Ziwen(Aaron) Li
+        website: 
+        email: 
+        image: 
+        member_since: 2025
+  - type: "Interns"
+    list:
+      - name: Zeya Chen
+        website: 
+        email: 
+        image: 
+        member_since: 2024
+      - name: Bingcan(Gloria) Guo
+        website: 
+        email: 
+        image: 
+        member_since: 2024
+      - name: William Namgyal
+        website: 
+        email: 
+        image: 
+        member_since: 2024
+      - name: Yaoyao Wu
+        website: 
+        email: 
+        image: 
+        member_since: 2024
+      - name: Eryue (Yolanda) Xu
+        website: 
+        email: 
+        image: 
+        member_since: 2024
+      - name: Jijie (Gigi) Zhou
+        website: 
+        email: 
+        image: 
+        member_since: 2024

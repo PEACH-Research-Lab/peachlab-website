@@ -1,7 +1,0 @@
-User-agent: Googlebot
-Disallow: /assets/images/author/
-
-User-agent: *
-Allow: /
-
-Sitemap: https://donghoon.io/sitemap.xml
