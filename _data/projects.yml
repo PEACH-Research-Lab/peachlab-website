@@ -1,0 +1,51 @@
+project:
+  - title: "Rescriber: Smaller-LLM-Powered User-Led Data Minimization for LLM-Based Chatbots"
+    authors: Jijie Zhou, Eryue Xu, Yaoyao Wu, Tianshi Li
+    venue: CHI 2025
+    venue_class: chi
+    category: "Category 1"
+    description: "Abstract"
+    image: rescriber.png
+    links:
+      pdf: 
+      arxiv: https://arxiv.org/pdf/2410.11876
+  - title: "Rescriber: Smaller-LLM-Powered User-Led Data Minimization for LLM-Based Chatbots"
+    authors: Jijie Zhou, Eryue Xu, Yaoyao Wu, Tianshi Li
+    venue: CHI 2025
+    venue_class: chi
+    category: "Category 1"
+    description: "The rise of LLM-based conversational agents has led to increased disclosure of sensitive information, yet current systems lack user control over privacy-utility tradeoffs. We present Rescriber, a browser extension that enables user-led data minimization by detecting and sanitizing personal information in prompts. In a study (N=12), Rescriber reduced unnecessary disclosures and addressed user privacy concerns. Users rated the Llama3-8B-powered system comparably to GPT-4o. Trust was shaped by the tool’s consistency and comprehensiveness. Our findings highlight the promise of lightweight, on-device privacy controls for enhancing trust and protection in AI systems."
+    image: rescriber.png
+    links:
+      pdf: 
+      arxiv: https://arxiv.org/pdf/2410.11876
+  - title: "Rescriber: Smaller-LLM-Powered User-Led Data Minimization for LLM-Based Chatbots"
+    authors: Jijie Zhou, Eryue Xu, Yaoyao Wu, Tianshi Li
+    venue: CHI 2025
+    venue_class: chi
+    category: "Category 1"
+    description: "The rise of LLM-based conversational agents has led to increased disclosure of sensitive information, yet current systems lack user control over privacy-utility tradeoffs. We present Rescriber, a browser extension that enables user-led data minimization by detecting and sanitizing personal information in prompts. In a study (N=12), Rescriber reduced unnecessary disclosures and addressed user privacy concerns. Users rated the Llama3-8B-powered system comparably to GPT-4o. Trust was shaped by the tool’s consistency and comprehensiveness. Our findings highlight the promise of lightweight, on-device privacy controls for enhancing trust and protection in AI systems."
+    image: rescriber.png
+    links:
+      pdf: 
+      arxiv: https://arxiv.org/pdf/2410.11876
+  - title: "Rescriber: Smaller-LLM-Powered User-Led Data Minimization for LLM-Based Chatbots"
+    authors: Jijie Zhou, Eryue Xu, Yaoyao Wu, Tianshi Li
+    venue: CHI 2025
+    venue_class: chi
+    category: "Category 1"
+    description: "The rise of LLM-based conversational agents has led to increased disclosure of sensitive information, yet current systems lack user control over privacy-utility tradeoffs. We present Rescriber, a browser extension that enables user-led data minimization by detecting and sanitizing personal information in prompts. In a study (N=12), Rescriber reduced unnecessary disclosures and addressed user privacy concerns. Users rated the Llama3-8B-powered system comparably to GPT-4o. Trust was shaped by the tool’s consistency and comprehensiveness. Our findings highlight the promise of lightweight, on-device privacy controls for enhancing trust and protection in AI systems."
+    image: rescriber.png
+    links:
+      pdf: 
+      arxiv: https://arxiv.org/pdf/2410.11876
+  - title: "Rescriber: Smaller-LLM-Powered User-Led Data Minimization for LLM-Based Chatbots"
+    authors: Jijie Zhou, Eryue Xu, Yaoyao Wu, Tianshi Li
+    venue: CHI 2025
+    venue_class: chi
+    category: "Category 1"
+    description: "The rise of LLM-based conversational agents has led to increased disclosure of sensitive information, yet current systems lack user control over privacy-utility tradeoffs. We present Rescriber, a browser extension that enables user-led data minimization by detecting and sanitizing personal information in prompts. In a study (N=12), Rescriber reduced unnecessary disclosures and addressed user privacy concerns. Users rated the Llama3-8B-powered system comparably to GPT-4o. Trust was shaped by the tool’s consistency and comprehensiveness. Our findings highlight the promise of lightweight, on-device privacy controls for enhancing trust and protection in AI systems."
+    image: rescriber.png
+    links:
+      pdf: 
+      arxiv: https://arxiv.org/pdf/2410.11876

@@ -4,54 +4,54 @@ people:
       - name: Tianshi Li
         website: 
         email: 
-        image: 
+        image: sample.jpeg
         member_since: 2023
-  - type: "Ph.D. Students"
+  - type: "Ph.D. Student"
     list:
-      - name: Zhiping(Arya) Zhang
+      - name: Zhiping (Arya) Zhang
         website:
         email: 
-        image: 
+        image: sample.jpeg
         member_since: 2024
       - name: Jianing Wen
         website: 
         email: 
-        image: 
+        image: sample.jpeg
         member_since: 2025
-      - name: Ziwen(Aaron) Li
+      - name: Ziwen (Aaron) Li
         website: 
         email: 
-        image: 
+        image: sample.jpeg
         member_since: 2025
-  - type: "Interns"
+  - type: "Intern"
     list:
       - name: Zeya Chen
         website: 
         email: 
-        image: 
+        image: sample.jpeg
         member_since: 2024
-      - name: Bingcan(Gloria) Guo
+      - name: Bingcan (Gloria) Guo
         website: 
         email: 
-        image: 
+        image: sample.jpeg
         member_since: 2024
       - name: William Namgyal
         website: 
         email: 
-        image: 
+        image: sample.jpeg
         member_since: 2024
       - name: Yaoyao Wu
         website: 
         email: 
-        image: 
+        image: sample.jpeg
         member_since: 2024
       - name: Eryue (Yolanda) Xu
         website: 
         email: 
-        image: 
+        image: sample.jpeg
         member_since: 2024
       - name: Jijie (Gigi) Zhou
         website: 
         email: 
-        image: 
+        image: sample.jpeg
         member_since: 2024

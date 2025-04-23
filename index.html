@@ -5,13 +5,19 @@ title: PEACH Lab
 
 {% assign areas = site.data.research-area.area %}
 {% assign news = site.data.news.list %}
-{% assign projects = site.data.project.project %}
+{% assign projects = site.data.projects.project %}
 
 <div class="container py-3">
+
+    <!-- Research Area -->    
+     <!-- <div class="row">
+        <div class="col-12 col-sm-7 col-lg-8 col-xl-8 align-self-center">
+            <img src="{{ 'assets/images/research_area/sample.jpeg' | relative_url }}" height="50rem" width="100%" alt="Research Area">
+        </div>
+     </div> -->
+     
+    <!-- Introduction -->
     <div class="row">
-        <!-- <div class="col-12 col-sm-5 col-lg-4 col-xl-4 align-self-center pt-0 pt-md-4 mb-4 mb-md-0">
-            <img src="{{ '/assets/images/main/peachlab.svg' | relative_url }}" alt="" style="height: auto; width: 90%; border-radius: 15px;">
-        </div> -->
         <div class="col-12 col-sm-7 col-lg-8 col-xl-8 align-self-center">
             <p class="paragraph">We are PEACH (<strong style="font-weight: 500 !important;">P</strong>rivacy-<strong style="font-weight: 500 !important;">E</strong>nabling <strong style="font-weight: 500 !important;">A</strong>I and <strong style="font-weight: 500 !important;">C</strong>omputer-<strong style="font-weight: 500 !important;">H</strong>uman Interaction) Lab at the <a href="https://neu.edu"><img class="logo" src="{{ 'assets/images/logo/neu.svg' | relative_url }}"/>Northeastern University</a>.</p>
             <p class="paragraph">We are a group of researchers passionate about exploring the intersection of HCI, AI, and privacy. <br> We believe that addressing privacy issues raised by AI requires not only model-centered approaches—approaches that improve the models—but also human-centered approaches—approaches that empower people.</p>
@@ -20,36 +26,13 @@ title: PEACH Lab
     </div>
 </div>
 
-<div class="container d-flex justify-content-between">
-    <div class="research-area-list">
-        <p style="font-weight: 500 !important; text-transform: uppercase;">Research area</p>
-        <ul>
-            {% for area in areas limit: 4 %}
-            <li>{{ area.title }}</li>
-            {% endfor %}
-        </ul>
-        <div class="d-flex flex-row-reverse mt-4">
-            <a href="{{ 'research' | relative_url }}" style="font-size: .95rem; font-weight: 500 !important;">> View All</a>
-        </div>
-    </div>
-    <div class="selected-works-list">
-        <p style="font-weight: 500 !important; text-transform: uppercase;">Selected works</p>
-        <ul>
-            {% for project in projects %}
-            <li>{{ project.title }}{% if project.venue %} - <span class="project-venue">{{ project.venue }}</span>{% endif %}</li>
-            {% endfor %}
-        </ul>
-        <div class="d-flex flex-row-reverse mt-4">
-            <a href="{{ 'publication' | relative_url }}" style="font-size: .95rem; font-weight: 500 !important;">> View All</a>
-        </div>
-    </div>
-</div>
 
-<div class="container d-flex justify-content-between">
-    <div class="col-12 col-sm-4">
+<!-- <div class="container d-flex justify-content-between"> -->
+    <!-- News -->
+    <div class="col-12 col-sm-6" style="padding-right: 3rem !important;">
         <p style="font-weight: 500 !important; text-transform: uppercase;">News</p>
         <div class="row mt-4">
-            {% for new in news limit: 4 %}
+            {% for new in news limit: 2 %}
             <div class="col-12 col-sm-12 px-2">
                 <div class="border p-3 mb-2 md-mb-0">
                     <p class="mb-1" style="font-size: .9rem; font-weight: 400 !important; line-height: 1.3">{{ new.title }}</p>
@@ -59,52 +42,118 @@ title: PEACH Lab
             </div>
             {% endfor %}
         </div>
-        <div class="d-flex flex-row-reverse mt-4">
+        <!-- <div class="d-flex flex-row-reverse mt-4">
             <a href="{{ 'news' | relative_url }}" style="font-size: .95rem; font-weight: 500 !important;">> View All</a>
-        </div>
+        </div> -->
     </div>
-
-    <div class="col-12 col-sm-8">
-        {% assign counter = 0 %}
-        {% assign color = '#EC0B33, #379DD4, #61BA84, #E1B917' | split: ', ' %}
-        <div class="container pt-4">
-            {% for group in site.data.people.people %}
-                <p style="font-weight: 500 !important; text-transform: uppercase;">{{ group.type }}</p>
-                <div class="row my-4">
-                    {% assign people = group.list | sort: "member_since" %}
-                    {% for person in people %}
-                        <div class="col-6 col-lg-3 col-sm-4 align-self-center zoom">
-                            {% if person.website %}
-                            <a href="{{ person.website }}"><img src="{{ 'assets/images/people/' | append: person.image | relative_url }}" alt="" style="height: auto; width: 100%;"></a>
-                            {% else %}
-                            <img src="{{ 'assets/images/people/' | append: person.image | relative_url }}" alt="" style="height: auto; width: 100%;">
-                            {% endif %}
-                            {% assign idx = counter | modulo: 4 %}
-                            {% assign this_color = color[idx] %}
-                            <div class="mb-3" style="background-color: {{ this_color }};">
-                                <p style="font-size: 1rem; font-weight: 500 !important; padding: .5rem .5rem 0 .75rem; margin: 0 !important; text-align: left; color: white;">{{ person.name }}</p>
-                                {% assign email = person.email | split: "@" %}
-                                <a href="#" class="cryptedmail"
-                                    data-name="{{ email[0] }}"
-                                    data-domain="{{ email[1] }}"
-                                    onclick="window.location.href = 'mailto:' + this.dataset.name + '@' + this.dataset.domain; return false;">
-                                    <i class="fas fa-envelope"></i>&nbsp;
-                                </a>
-                            </div>
-                            {% assign counter = counter | plus: 1 %}
-                        </div>
-                    {% endfor %}
-                </div>
+    
+    <div class="container pb-3 px-0 px-md-3 col-12 col-sm-9"style="padding-top: 3rem !important;" id="research">
+        <p style="font-weight: 500 !important; text-transform: uppercase;">Research</p>
+        <div class="row mt-4">
+            {% for project in projects limit: 4 %}
+            <div class="col-12 col-md-2 align-self-center mb-4 mb-md-0">
+                <img src="{{ 'assets/images/project/' | append: project.image | relative_url }}" width="100%" alt="{{ project.title }}" title="{{ project.title }}"><br><br>
+            </div>
+            <div class="col-12 col-md-10 align-self-center mb-4 mb-md-0">
+                <p class="mb-1" style="font-size: 1rem; font-weight: 500 !important;">
+                    {% if project.gif %}
+                    <img src="{{ 'assets/images/' | append: project.gif | relative_url }}" width="3.5%" style="min-width:30px; vertical-align: bottom;margin-top:-5%">
+                    {% endif %}
+                    &nbsp;{{ project.title }}
+                </p>
+                <p class="mb-1" style="font-size: .9rem; font-weight: 200 !important;">{{ project.authors | markdownify | strip_newlines }}</p>
+                <p class="mb-1" style="font-size: .9rem; font-weight: 200 !important;">
+                    <span style="font-weight: 400;font-size:.8rem;background-color:rgba(255, 105, 24, 0.251);">
+                        &nbsp;{{ project.venue }}
+                    </span>
+                    &nbsp; 
+                    {{ project.description }}
+                </p>
+                <p style="font-size: .9rem; font-weight: 300 !important;" class="nonselectable">
+                    {% if project.links.pdf %}
+                    <a href="{{ project.links.pdf }}" target="_blank" rel="noopener noreferrer">
+                        &nbsp;&nbsp;<i class="fa fa-file"></i>&nbsp;&nbsp;PDF&nbsp;&nbsp;
+                    </a>
+                    {% endif %}
+                    {% if project.links.arxiv %}
+                    <a href="{{ project.links.arxiv }}" target="_blank" rel="noopener noreferrer">
+                        &nbsp;&nbsp;<img src="/assets/images/arxiv-logo.svg" style="height: 1rem; filter: brightness(0%);">
+                        &nbsp;&nbsp;arXiv&nbsp;&nbsp;
+                    </a>
+                    {% endif %}
+                    {% if project.links.video %}
+                    <a href="{{ project.links.video }}" target="_blank" rel="noopener noreferrer">
+                        &nbsp;&nbsp;<i class="fa fa-play"></i>&nbsp;&nbsp;Video&nbsp;&nbsp;
+                    </a>
+                    {% endif %}
+                    {% if project.links.tweetorial %}
+                    <a href="{{ project.links.tweetorial }}" target="_blank" rel="noopener noreferrer">
+                        &nbsp;&nbsp;<i class="fa fa-twitter"></i>&nbsp;&nbsp;Tweetorial&nbsp;&nbsp;
+                    </a>
+                    {% endif %}
+                    {% if project.links.code %}
+                    <a href="{{ project.links.code }}" target="_blank" rel="noopener noreferrer">
+                        &nbsp;&nbsp;<i class="fa fa-github"></i>&nbsp;&nbsp;Code&nbsp;&nbsp;
+                    </a>
+                    {% endif %}
+                    {% if project.links.demo %}
+                    <a href="{{ project.links.demo }}" target="_blank" rel="noopener noreferrer">
+                        &nbsp;&nbsp;<i class="fa fa-gamepad" style="font-size:1.1rem"></i>&nbsp;&nbsp;Demo&nbsp;&nbsp;
+                    </a>
+                    {% endif %}
+                    {% if project.links.bibtex %}
+                    <a href="{{ project.links.bibtex }}" target="_blank" rel="noopener noreferrer" class="hyperlinkn">
+                        &nbsp;&nbsp;<i class="fa fa-quote-right"></i>&nbsp;&nbsp;BibTeX&nbsp;&nbsp;
+                    </a>
+                    {% endif %}
+                </p>
+                <hr>
+            </div>
             {% endfor %}
         </div>
+        <div class="d-flex flex-row-reverse mt-4">
+            <a href="{{ 'papers' | relative_url }}" style="font-size: .95rem; font-weight: 500 !important;">> View All</a>
+        </div>
     </div>
-</div>
+<!-- </div> -->
 
-<div class="container" style="text-align: center; margin-top: auto;">
+<div class="col-12">
+    <p style="font-weight: 500 !important; text-transform: uppercase;">People</p>
+    <div class="container-fluid pt-4">
+      <div class="row my-3">
+        {% assign color = '#EC0B33, #379DD4, #61BA84, #E1B917' | split: ', ' %}
+        {% assign counter = 0 %}
+  
+        {% for group in site.data.people.people %}
+          {% assign type = group.type %}
+          {% assign people = group.list | sort: "member_since" %}
+          {% for person in people %}
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2 col-xl-1-5 text-center mb-4">
+              <img src="{{ 'assets/images/people/' | append: person.image | relative_url }}"
+                   alt="{{ person.name }}"
+                   class="img-fluid rounded mb-2"
+                   style="max-width: 100px; height: auto;">
+  
+              <p style="font-size: 0.85rem; font-weight: 500; color: #ED5532; margin-bottom: 0.25rem;">
+                {{ person.name }}
+              </p>
+              <p style="font-size: 0.8rem; color: #777; margin-bottom: 0;">
+                {{ type }}
+              </p>
+            </div>
+            {% assign counter = counter | plus: 1 %}
+          {% endfor %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+
+
+<div class="container" style="text-align: center; margin-top: 4rem;">
     <p>Our work has been supported by the following funding agencies: National Science Foundation, Google, and CMU CyLab.</p>
-    <img src="/assets/images/logo/nsf_logo.png" alt="NSF Logo" style="width: 100px; height: auto; margin-right: 30px;">
-    <img src="/assets/images/logo/google_logo.png" alt="Google Logo" style="width: 100px; height: auto; margin-right: 30px;">
-    <img src="/assets/images/logo/cylab_logo.png" alt="CMU Logo" style="width: 100px; height: auto;">
+    <img src="/assets/images/logo/nsf_logo.png" alt="NSF Logo" style="width: 150px; height: auto; margin-right: 30px;">
+    <img src="/assets/images/logo/google_logo.png" alt="Google Logo" style="width: 150px; height: auto; margin-right: 30px;">
+    <img src="/assets/images/logo/cylab_logo.png" alt="CMU Logo" style="width: 150px; height: auto;">
 
 </div>
 

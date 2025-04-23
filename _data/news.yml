@@ -1,10 +1,4 @@
 list: # format date as dd/mm/yyyy
-  - title: "Example news title"
-    date: "14/10/2024"
-    description: "Example news description!!"
-  - title: "Example news title"
-    date: "14/10/2024"
-    description: "Example news description!!"
-  - title: "Example news title"
-    date: "14/10/2024"
-    description: "Example news description!!"
+  - title: "Two papers accepted at CHI 2025 🌸⛩️"
+    date: "21/01/2025"
+    description: "PEACH lab will present two papers (blablabla and blablabla) at this year's CHI conference in Yokohama,Japan."

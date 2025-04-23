@@ -1,6 +1,6 @@
 # PEACH Lab Website
 
-This repository contains the codebase of Northeastern PEACH Lab website.
+This repository contains the codebase of Northeastern University PEACH Lab website.
 
 ## Adding People
 
@@ -26,4 +26,8 @@ This repository contains the codebase of Northeastern PEACH Lab website.
 
 
 ## Contact
+
+## Credits
+
+This website uses [Donghoon's theme](https://github.com/donghoon-io/donghoon-io.github.io). Special thanks to him!
 
