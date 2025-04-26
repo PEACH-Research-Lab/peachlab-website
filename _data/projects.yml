@@ -3,49 +3,35 @@ project:
     authors: Jijie Zhou, Eryue Xu, Yaoyao Wu, Tianshi Li
     venue: CHI 2025
     venue_class: chi
-    category: "Category 1"
-    description: "Abstract"
-    image: rescriber.png
-    links:
-      pdf: 
-      arxiv: https://arxiv.org/pdf/2410.11876
-  - title: "Rescriber: Smaller-LLM-Powered User-Led Data Minimization for LLM-Based Chatbots"
-    authors: Jijie Zhou, Eryue Xu, Yaoyao Wu, Tianshi Li
-    venue: CHI 2025
-    venue_class: chi
-    category: "Category 1"
     description: "The rise of LLM-based conversational agents has led to increased disclosure of sensitive information, yet current systems lack user control over privacy-utility tradeoffs. We present Rescriber, a browser extension that enables user-led data minimization by detecting and sanitizing personal information in prompts. In a study (N=12), Rescriber reduced unnecessary disclosures and addressed user privacy concerns. Users rated the Llama3-8B-powered system comparably to GPT-4o. Trust was shaped by the tool’s consistency and comprehensiveness. Our findings highlight the promise of lightweight, on-device privacy controls for enhancing trust and protection in AI systems."
     image: rescriber.png
-    links:
-      pdf: 
-      arxiv: https://arxiv.org/pdf/2410.11876
-  - title: "Rescriber: Smaller-LLM-Powered User-Led Data Minimization for LLM-Based Chatbots"
-    authors: Jijie Zhou, Eryue Xu, Yaoyao Wu, Tianshi Li
-    venue: CHI 2025
+    acm_dl: https://dl.acm.org/doi/10.1145/3706598.3713701
+    arxiv: https://arxiv.org/pdf/2410.11876
+    video: https://youtu.be/Ucb1dpk4580?si=Q59a81AHn15TnRaM
+  - title: "Secret Use of Large Language Model (LLM)"
+    authors: Zhiping Zhang, Chenxinran Shen, Bingsheng Yao, Dakuo Wang, and Tianshi Li
+    venue: CSCW 2025 
+    venue_class: cscw
+    image: secret.jpg
+    description: "The advancements of Large Language Models (LLMs) have decentralized the responsibility for the transparency of AI usage. Specifically, LLM users are now encouraged or required to disclose the use of LLM-generated content for varied types of real-world tasks. However, an emerging phenomenon, users’ secret use of LLMs, raises challenges in ensuring end users adhere to the transparency requirement. Our study used mixed-methods with an exploratory survey (125 real-world secret use cases reported) and a controlled experiment among 300 users to investigate the contexts and causes behind the secret use of LLMs. We found that such secretive behavior is often triggered by certain tasks, transcending demographic and personality differences among users. Task types were found to affect users’ intentions to use secretive behavior, primarily through influencing of perceived external judgment regarding LLM usage. Our results yield important insights for future work on designing interventions to encourage more transparent disclosure of LLM/AI use."
+    arxiv: https://arxiv.org/abs/2409.19450
+  - title: "“It's a Fair Game”, or Is It? Examining How Users Navigate Disclosure Risks and Benefits When Using LLM-Based Conversational Agents"
+    authors: Zhiping Zhang, Michelle Jia, Hao-Ping (Hank) Lee, Bingsheng Yao, Sauvik Das, Ada Lerner, Dakuo Wang, and Tianshi Li
+    venue: CHI 2024
     venue_class: chi
-    category: "Category 1"
-    description: "The rise of LLM-based conversational agents has led to increased disclosure of sensitive information, yet current systems lack user control over privacy-utility tradeoffs. We present Rescriber, a browser extension that enables user-led data minimization by detecting and sanitizing personal information in prompts. In a study (N=12), Rescriber reduced unnecessary disclosures and addressed user privacy concerns. Users rated the Llama3-8B-powered system comparably to GPT-4o. Trust was shaped by the tool’s consistency and comprehensiveness. Our findings highlight the promise of lightweight, on-device privacy controls for enhancing trust and protection in AI systems."
-    image: rescriber.png
-    links:
-      pdf: 
-      arxiv: https://arxiv.org/pdf/2410.11876
-  - title: "Rescriber: Smaller-LLM-Powered User-Led Data Minimization for LLM-Based Chatbots"
-    authors: Jijie Zhou, Eryue Xu, Yaoyao Wu, Tianshi Li
-    venue: CHI 2025
+    description: "The widespread use of Large Language Model (LLM)-based conversational agents (CAs), especially in high-stakes domains, raises many privacy concerns. Building ethical LLM-based CAs that respect user privacy requires an in-depth understanding of the privacy risks that concern users the most. However, existing research, primarily model-centered, does not provide insight into users’ perspectives. To bridge this gap, we analyzed sensitive disclosures in real-world ChatGPT conversations and conducted semi-structured interviews with 19 LLM-based CA users. We found that users are constantly faced with trade-offs between privacy, utility, and convenience when using LLM-based CAs. However, users’ erroneous mental models and the dark patterns in system design limited their awareness and comprehension of the privacy risks. Additionally, the human-like interactions encouraged more sensitive disclosures, which complicated users’ ability to navigate the trade-offs. We discuss practical design guidelines and the needs for paradigmatic shifts to protect the privacy of LLM-based CA users."    
+    image: fairgame.jpg
+    acm_dl: https://dl.acm.org/doi/10.1145/3613904.3642385
+    video:  https://www.youtube.com/watch?v=VF_xkMYfvhk&t=2s
+    talk: https://www.youtube.com/watch?v=SDQpxkTnJUw
+  - title: "Human-centered privacy research in the age of large language models"
+    authors: Tianshi Li, Sauvik Das, Hao-Ping (Hank) Lee, Dakuo Wang, Bingsheng Yao, and Zhiping Zhang
+    venue: CHI 2024 Workshop
     venue_class: chi
-    category: "Category 1"
-    description: "The rise of LLM-based conversational agents has led to increased disclosure of sensitive information, yet current systems lack user control over privacy-utility tradeoffs. We present Rescriber, a browser extension that enables user-led data minimization by detecting and sanitizing personal information in prompts. In a study (N=12), Rescriber reduced unnecessary disclosures and addressed user privacy concerns. Users rated the Llama3-8B-powered system comparably to GPT-4o. Trust was shaped by the tool’s consistency and comprehensiveness. Our findings highlight the promise of lightweight, on-device privacy controls for enhancing trust and protection in AI systems."
-    image: rescriber.png
-    links:
-      pdf: 
-      arxiv: https://arxiv.org/pdf/2410.11876
-  - title: "Rescriber: Smaller-LLM-Powered User-Led Data Minimization for LLM-Based Chatbots"
-    authors: Jijie Zhou, Eryue Xu, Yaoyao Wu, Tianshi Li
-    venue: CHI 2025
-    venue_class: chi
-    category: "Category 1"
-    description: "The rise of LLM-based conversational agents has led to increased disclosure of sensitive information, yet current systems lack user control over privacy-utility tradeoffs. We present Rescriber, a browser extension that enables user-led data minimization by detecting and sanitizing personal information in prompts. In a study (N=12), Rescriber reduced unnecessary disclosures and addressed user privacy concerns. Users rated the Llama3-8B-powered system comparably to GPT-4o. Trust was shaped by the tool’s consistency and comprehensiveness. Our findings highlight the promise of lightweight, on-device privacy controls for enhancing trust and protection in AI systems."
-    image: rescriber.png
-    links:
-      pdf: 
-      arxiv: https://arxiv.org/pdf/2410.11876
+    image: human.jpg
+    acm_dl:  https://dl.acm.org/doi/10.1145/3613905.3643983#pill-citations__content
+
+
+
+
+

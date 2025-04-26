@@ -2,56 +2,75 @@ people:
   - type: "Principal Investigator"
     list:
       - name: Tianshi Li
-        website: 
-        email: 
-        image: sample.jpeg
+        website: https://tianshili.me/
+        email: tia.li@northeastern.edu
+        bio: 
+        image: tianshi.png
         member_since: 2023
   - type: "Ph.D. Student"
     list:
       - name: Zhiping (Arya) Zhang
-        website:
-        email: 
-        image: sample.jpeg
+        website: https://www.zhipingzhang.com/
+        email: arya.zhangpika@gmail.com
+        bio: Zhiping explores how people perceive privacy issues related to AI systems, and investigates how to align the AI models or agentic systems with people’s privacy preferences.
+        image: zhiping.png
+        twitter: https://x.com/zhipinghci
+        google_scholar: https://scholar.google.com/citations?user=z2iBZvEAAAAJ&hl=en
         member_since: 2024
       - name: Jianing Wen
-        website: 
-        email: 
-        image: sample.jpeg
+        website: https://jianingwen.github.io/
+        email: wen00112@umn.edu
+        bio: Jianing's research lies at the intersection of Human-Computer Interaction (HCI) and Natural Language Processing (NLP).
+        image: sample.png
         member_since: 2025
       - name: Ziwen (Aaron) Li
-        website: 
-        email: 
-        image: sample.jpeg
+        website: https://aaronli43.github.io/personalweb/
+        email: zil105@g.ucla.edu
+        image: ziwen.png
+        bio:
+        google_scholar: 
         member_since: 2025
   - type: "Intern"
     list:
       - name: Zeya Chen
-        website: 
+        website: https://www.linkedin.com/in/zeya-chen/
         email: 
-        image: sample.jpeg
+        image: zeya.jpg
+        bio:
+        google_scholar: 
         member_since: 2024
       - name: Bingcan (Gloria) Guo
-        website: 
-        email: 
-        image: sample.jpeg
+        website: bguoac.info
+        email: bi.guo@northeastern.edu
+        image: bingcan.jpg
+        bio:
+        google_scholar: https://scholar.google.com/citations?user=Eqigjc4AAAAJ&hl=en
         member_since: 2024
       - name: William Namgyal
         website: 
         email: 
-        image: sample.jpeg
+        bio:
+        google_scholar: 
+        image: sample.png
         member_since: 2024
       - name: Yaoyao Wu
         website: 
         email: 
-        image: sample.jpeg
+        bio:
+        google_scholar: 
+        image: sample.png
         member_since: 2024
       - name: Eryue (Yolanda) Xu
-        website: 
+        website: https://sites.google.com/view/eryue/bio
         email: 
-        image: sample.jpeg
+        bio:
+        google_scholar: https://scholar.google.com/citations?user=muCKXVAAAAAJ&hl=en
+        image: eryue.png
         member_since: 2024
       - name: Jijie (Gigi) Zhou
         website: 
         email: 
-        image: sample.jpeg
+        bio:
+        google_scholar: 
+        image: jijie.png
         member_since: 2024

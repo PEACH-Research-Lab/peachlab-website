@@ -1,4 +1,7 @@
 list: # format date as dd/mm/yyyy
-  - title: "Two papers accepted at CHI 2025 🌸⛩️"
+  - title: "Travelling to CHI 2025 🌸⛩️"
+    date: "25/04/2025"
+    description: "PEACH lab members will be travelling to Yokohama, Japan for the CHI 2025 conference."
+  - title: "One paper accepted at CHI 2025!"
     date: "21/01/2025"
-    description: "PEACH lab will present two papers (blablabla and blablabla) at this year's CHI conference in Yokohama,Japan."
+    description: "PEACH lab have a paper accepted at this year's CHI conference!"
