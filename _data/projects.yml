@@ -1,4 +1,18 @@
 project:
+  - title: "Toward a Human-centered Evaluation Framework for Trustworthy LLM-powered GUI Agents"
+    authors: Chaoran Chen\*, Zhiping Zhang\*, Ibrahim Khalilov, Bingcan Guo, Simret A Gebreegziabher, Yanfang Ye, Ziang Xiao, Yaxing Yao, Tianshi Li, Toby Jia-Jun Li
+    venue: CHI 2025 HEAL Workshop
+    venue_class: chi workshop
+    image: gui.png
+    description: "The rise of LLM-powered GUI agents has advanced automation but introduced significant privacy and security risks due to limited human oversight. This position paper identifies three key risks unique to GUI agents, highlights gaps in current evaluation practices, and outlines five challenges in integrating human evaluators. We advocate for a human-centered evaluation framework that embeds risk assessments, in-context consent, and privacy and security considerations into GUI agent design."
+    arxiv: https://arxiv.org/abs/2504.17934
+  - title: "Privacy Leakage Overshadowed by Views of AI: A Study on Human Oversight of Privacy in Language Model Agent"
+    authors: Zhiping Zhang, Bingcan Guo, Tianshi Li
+    venue: Preprint
+    venue_class: preprint
+    description: "Language model (LM) agents can boost productivity in personal tasks like replying to emails but pose privacy risks. We present the first study (N=300) on people’s ability to oversee LM agents’ privacy implications in asynchronous communication. Participants sometimes preferred agent-generated responses with greater privacy leakage, increasing harmful disclosures from 15.7% to 55.0%. We identified six privacy profiles reflecting different concerns, trust, and preferences. Our findings inform the design of agentic systems that support privacy-preserving interactions and better align with users’ privacy expectations."
+    image: oversight.png
+    arxiv: https://arxiv.org/abs/2411.01344
   - title: "Rescriber: Smaller-LLM-Powered User-Led Data Minimization for LLM-Based Chatbots"
     authors: Jijie Zhou, Eryue Xu, Yaoyao Wu, Tianshi Li
     venue: CHI 2025
@@ -15,6 +29,14 @@ project:
     image: secret.jpg
     description: "The advancements of Large Language Models (LLMs) have decentralized the responsibility for the transparency of AI usage. Specifically, LLM users are now encouraged or required to disclose the use of LLM-generated content for varied types of real-world tasks. However, an emerging phenomenon, users’ secret use of LLMs, raises challenges in ensuring end users adhere to the transparency requirement. Our study used mixed-methods with an exploratory survey (125 real-world secret use cases reported) and a controlled experiment among 300 users to investigate the contexts and causes behind the secret use of LLMs. We found that such secretive behavior is often triggered by certain tasks, transcending demographic and personality differences among users. Task types were found to affect users’ intentions to use secretive behavior, primarily through influencing of perceived external judgment regarding LLM usage. Our results yield important insights for future work on designing interventions to encourage more transparent disclosure of LLM/AI use."
     arxiv: https://arxiv.org/abs/2409.19450
+  - title: "PrivacyLens: Evaluating Privacy Norm Awareness of Language Models in Action"
+    authors: Yijia Shao, Tianshi Li, Weiyan Shi, Yanchen Liu, and Diyi Yang
+    venue: NeurIPS 2024
+    venue_class: neurips
+    image: privacylens.png
+    description: "As language models (LMs) gain agency in personal communication, ensuring privacy compliance is critical but hard to evaluate. We introduce PrivacyLens, a framework that expands privacy-sensitive seeds into vignettes and trajectories for multi-level privacy risk assessment. Testing GPT-4 and Llama-3-70B, we find sensitive information leakage in 25.68% and 38.69% of cases, even with privacy prompts. PrivacyLens also supports dynamic red-teaming through trajectory variations."
+    code: https://github.com/SALT-NLP/PrivacyLens
+    arxiv: https://arxiv.org/abs/2409.00138
   - title: "“It's a Fair Game”, or Is It? Examining How Users Navigate Disclosure Risks and Benefits When Using LLM-Based Conversational Agents"
     authors: Zhiping Zhang, Michelle Jia, Hao-Ping (Hank) Lee, Bingsheng Yao, Sauvik Das, Ada Lerner, Dakuo Wang, and Tianshi Li
     venue: CHI 2024
@@ -22,6 +44,7 @@ project:
     description: "The widespread use of Large Language Model (LLM)-based conversational agents (CAs), especially in high-stakes domains, raises many privacy concerns. Building ethical LLM-based CAs that respect user privacy requires an in-depth understanding of the privacy risks that concern users the most. However, existing research, primarily model-centered, does not provide insight into users’ perspectives. To bridge this gap, we analyzed sensitive disclosures in real-world ChatGPT conversations and conducted semi-structured interviews with 19 LLM-based CA users. We found that users are constantly faced with trade-offs between privacy, utility, and convenience when using LLM-based CAs. However, users’ erroneous mental models and the dark patterns in system design limited their awareness and comprehension of the privacy risks. Additionally, the human-like interactions encouraged more sensitive disclosures, which complicated users’ ability to navigate the trade-offs. We discuss practical design guidelines and the needs for paradigmatic shifts to protect the privacy of LLM-based CA users."    
     image: fairgame.jpg
     acm_dl: https://dl.acm.org/doi/10.1145/3613904.3642385
+    arxiv: https://arxiv.org/abs/2309.11653
     video:  https://www.youtube.com/watch?v=VF_xkMYfvhk&t=2s
     talk: https://www.youtube.com/watch?v=SDQpxkTnJUw
   - title: "Human-centered privacy research in the age of large language models"
@@ -29,7 +52,11 @@ project:
     venue: CHI 2024 Workshop
     venue_class: chi
     image: human.jpg
-    acm_dl:  https://dl.acm.org/doi/10.1145/3613905.3643983#pill-citations__content
+    description: "The rise of large language models (LLMs) in user-facing systems has raised significant privacy concerns. Existing research largely focuses on model-centric risks like memorization and inference attacks. We call for more human-centered research on how LLM design impacts user disclosure, privacy preferences, and control. To build usable and privacy-friendly systems, we aim to spark discussion around research agendas, methods, and collaborations across usable privacy, human-AI interaction, NLP, and related fields. This Special Interest Group (SIG) invites diverse researchers to share insights and chart future directions."
+    acm_dl:  https://dl.acm.org/doi/10.1145/3613905.3643983
+    arxiv: https://arxiv.org/abs/2402.01994
+
+
 
 
 

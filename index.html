@@ -58,7 +58,7 @@ title: PEACH Lab
         </div> -->
 
     
-        <div class="container pb-3 px-0 px-md-3" style="padding-top: 3rem !important;" id="research">
+        <div class="container pb-3 px-0 px-md-3" style="padding-top: 1rem !important;" id="research">
             <p style="font-weight: 500 !important; text-transform: uppercase;">Research</p>
         
             <div class="row mt-4">
@@ -83,9 +83,13 @@ title: PEACH Lab
                             {% assign venue_color = "rgba(255, 105, 24, 0.251)" %}
                             {% assign venue_lower = project.venue | downcase %}
                             {% if venue_lower contains 'chi' %}
-                                {% assign venue_color = "#D2E186" %}
+                                {% assign venue_color = "#C2d8b8" %}
                             {% elsif venue_lower contains 'cscw' %}
-                                {% assign venue_color = "#90d1d3" %}
+                                {% assign venue_color = "#b1d2e0" %}
+                            {% elsif venue_lower contains 'neurips' %}
+                                {% assign venue_color = "#fbcfc9" %}
+                            {% elsif venue_lower contains 'preprint' %}
+                                {% assign venue_color = "#fdf1e5" %}
                             {% endif %}
         
                             <p class="mb-1" style="font-size: .9rem; font-weight: 200 !important;">
@@ -99,7 +103,7 @@ title: PEACH Lab
                             <p style="font-size: .9rem; font-weight: 300 !important;" class="nonselectable">
                                 {% if project.arxiv %}
                                 <a href="{{ project.arxiv }}" target="_blank" rel="noopener noreferrer">
-                                    &nbsp;&nbsp;<img src="/assets/images/arxiv-logo.svg" style="height: 1rem; filter: brightness(0%);">
+                                    &nbsp;&nbsp;<img src="/assets/images/logo/arxiv-logo.svg" style="height: 1rem;">
                                     &nbsp;&nbsp;arXiv&nbsp;&nbsp;
                                 </a>
                                 {% endif %}
