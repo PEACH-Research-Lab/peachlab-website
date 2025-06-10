@@ -6,7 +6,7 @@ description: > # this means to ignore newlines until "show_excerpts:"
   PEACH Lab is a research lab at the Northeastern University
 
 # GitHub Pages and custom domain configuration
-url: "https://peachlab.com" # your custom domain
+url: "https://peach.codes" # your custom domain
 baseurl: "" # subpath of your site, e.g. /blog
 
 # Repository information (update with your actual username/repo)
