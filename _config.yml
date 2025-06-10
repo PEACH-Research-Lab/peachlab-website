@@ -5,7 +5,12 @@ author:
 description: > # this means to ignore newlines until "show_excerpts:"
   PEACH Lab is a research lab at the Northeastern University
 
-url: "" # the base hostname & protocol for your site
+# GitHub Pages and custom domain configuration
+url: "https://peachlab.com" # your custom domain
+baseurl: "" # subpath of your site, e.g. /blog
+
+# Repository information (update with your actual username/repo)
+repository: PEACH-Research-Lab/peachlab-website
 
 show_excerpts: false # set to true to show excerpts on the homepage
 
@@ -15,5 +20,24 @@ plugins:
  - jekyll-feed
  - jekyll-seo-tag
  - jekyll-sitemap
+
+# GitHub Pages uses safe mode, so we need to be explicit about plugins
+safe: true
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - README.md
 
 theme: minima
