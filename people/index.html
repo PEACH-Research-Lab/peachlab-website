@@ -15,10 +15,12 @@ title: People
       {% assign people = group.list | sort: "member_since" %}
       {% for person in people %}
         <div class="col-6 col-sm-4 col-md-3 col-lg-2 col-xl-1-5 text-center mb-4">
-          <img src="{{ 'assets/images/people/' | append: person.image | relative_url }}"
-               alt="{{ person.name }}"
-               class="img-fluid rounded mb-2"
-               style="max-width: 100px; height: auto;">
+          <a href="{{ person.website }}" target="_blank" rel="noopener noreferrer">
+            <img src="{{ 'assets/images/people/' | append: person.image | relative_url }}"
+                alt="{{ person.name }}"
+                class="img-fluid rounded mb-2"
+                style="max-width: 100px; height: auto;">
+          </a>
 
           <p style="font-size: 0.85rem; font-weight: 500; color: #ED5532; margin-bottom: 0.25rem;">
             {{ person.name }}
