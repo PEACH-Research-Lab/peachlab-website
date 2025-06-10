@@ -1,11 +1,4 @@
 project:
-  - title: "Toward a Human-centered Evaluation Framework for Trustworthy LLM-powered GUI Agents"
-    authors: Chaoran Chen\*, Zhiping Zhang\*, Ibrahim Khalilov, Bingcan Guo, Simret A Gebreegziabher, Yanfang Ye, Ziang Xiao, Yaxing Yao, Tianshi Li, Toby Jia-Jun Li
-    venue: CHI 2025 HEAL Workshop
-    venue_class: chi workshop
-    image: gui.png
-    description: "The rise of LLM-powered GUI agents has advanced automation but introduced significant privacy and security risks due to limited human oversight. This position paper identifies three key risks unique to GUI agents, highlights gaps in current evaluation practices, and outlines five challenges in integrating human evaluators. We advocate for a human-centered evaluation framework that embeds risk assessments, in-context consent, and privacy and security considerations into GUI agent design."
-    arxiv: https://arxiv.org/abs/2504.17934
   - title: "Privacy Leakage Overshadowed by Views of AI: A Study on Human Oversight of Privacy in Language Model Agent"
     authors: Zhiping Zhang, Bingcan Guo, Tianshi Li
     venue: Preprint
@@ -22,6 +15,20 @@ project:
     acm_dl: https://dl.acm.org/doi/10.1145/3706598.3713701
     arxiv: https://arxiv.org/pdf/2410.11876
     video: https://youtu.be/Ucb1dpk4580?si=Q59a81AHn15TnRaM
+  - title: "The Obvious Invisible Threat: LLM-Powered GUI Agents' Vulnerability to Fine-Print Injections"
+    authors: Chaoran Chen, Zhiping Zhang, Bingcan Guo, Shang Ma, Ibrahim Khalilov, Simret A Gebreegziabher, Yanfang Ye, Ziang Xiao<sup>†</sup>, Yaxing Yao<sup>†</sup>, Tianshi Li<sup>†</sup>, Toby Jia-Jun Li<sup>†</sup>
+    venue: Preprint
+    venue_class: preprint
+    image: oblivious.png
+    description: "A Large Language Model (LLM) powered GUI agent is a specialized autonomous system that performs tasks on the user’s behalf according to high-level instructions. It does so by perceiving and interpreting the graphical user interfaces (GUIs) of relevant apps, often visually, inferring necessary sequences of actions, and then interacting with GUIs by executing the actions such as clicking, typing, and tapping. To complete real-world tasks, such as filling forms or booking services, GUI agents often need to process and act on sensitive user data. However, this autonomy introduces new privacy and security risks. Adversaries can inject malicious content into the GUIs that alters agent behaviors or induces unintended disclosures of private information. These attacks often exploit the discrepancy between visual saliency for agents and human users, or the agent’s limited ability to detect violations of contextual integrity in task automation. In this paper, we characterized six types of such attacks, and conducted an experimental study to test these attacks with six state-of-the-art GUI agents, 234 adversarial webpages, and 39 human participants. Our findings suggest that GUI agents are highly vulnerable, particularly to contextually embedded threats. Moreover, human users are also susceptible to many of these attacks, indicating that simple human oversight may not reliably prevent failures. This misalignment highlights the need for privacy-aware agent design. We propose practical defense strategies to inform the development of safer and more reliable GUI agents."
+    arxiv: https://arxiv.org/pdf/2504.11281
+  - title: "Toward a Human-centered Evaluation Framework for Trustworthy LLM-powered GUI Agents"
+    authors: Chaoran Chen\*, Zhiping Zhang\*, Ibrahim Khalilov, Bingcan Guo, Simret A Gebreegziabher, Yanfang Ye, Ziang Xiao<sup>†</sup>, Yaxing Yao<sup>†</sup>, Tianshi Li<sup>†</sup>, Toby Jia-Jun Li<sup>†</sup>
+    venue: CHI 2025 HEAL Workshop
+    venue_class: chi workshop
+    image: gui.png
+    description: "The rise of LLM-powered GUI agents has advanced automation but introduced significant privacy and security risks due to limited human oversight. This position paper identifies three key risks unique to GUI agents, highlights gaps in current evaluation practices, and outlines five challenges in integrating human evaluators. We advocate for a human-centered evaluation framework that embeds risk assessments, in-context consent, and privacy and security considerations into GUI agent design."
+    arxiv: https://arxiv.org/abs/2504.17934
   - title: "Secret Use of Large Language Model (LLM)"
     authors: Zhiping Zhang, Chenxinran Shen, Bingsheng Yao, Dakuo Wang, and Tianshi Li
     venue: CSCW 2025 
@@ -49,7 +56,7 @@ project:
     talk: https://www.youtube.com/watch?v=SDQpxkTnJUw
   - title: "Human-centered privacy research in the age of large language models"
     authors: Tianshi Li, Sauvik Das, Hao-Ping (Hank) Lee, Dakuo Wang, Bingsheng Yao, and Zhiping Zhang
-    venue: CHI 2024 Workshop
+    venue: CHI 2024 SIG
     venue_class: chi
     image: human.jpg
     description: "The rise of large language models (LLMs) in user-facing systems has raised significant privacy concerns. Existing research largely focuses on model-centric risks like memorization and inference attacks. We call for more human-centered research on how LLM design impacts user disclosure, privacy preferences, and control. To build usable and privacy-friendly systems, we aim to spark discussion around research agendas, methods, and collaborations across usable privacy, human-AI interaction, NLP, and related fields. This Special Interest Group (SIG) invites diverse researchers to share insights and chart future directions."
