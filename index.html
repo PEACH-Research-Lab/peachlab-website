@@ -143,35 +143,71 @@ title: PEACH Lab
         {% assign counter = 0 %}
 
         {% for group in site.data.people.people %}
-            {% assign type = group.type %}
-            {% assign people = group.list | sort: "member_since" %}
-            {% for person in people %}
+        {% assign type = group.type %}
+        {% assign people = group.list | sort: "member_since" %}
+        {% unless type == "Alumni" %}
+          {% for person in people %}
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2 col-xl-1-5 text-center mb-4">
+              <a href="{{ person.website }}" target="_blank" rel="noopener noreferrer">
+                <img src="{{ 'assets/images/people/' | append: person.image | relative_url }}"
+                    alt="{{ person.name }}"
+                    class="img-fluid rounded mb-2"
+                    style="max-width: 100px; height: auto;">
+              </a>
+
+              <p style="font-size: 0.85rem; font-weight: 500; color: #ED5532; margin-bottom: 0.25rem;">
+                {{ person.name }}
+              </p>
+              <p style="font-size: 0.8rem; color: #777; margin-bottom: 0;">
+                {{ type }}
+              </p>
+            </div>
+            {% assign counter = counter | plus: 1 %}
+          {% endfor %}
+        {% endunless %}
+      {% endfor %}
+    </div>
+
+    <!-- Alumni Section -->
+    {% assign alumni_group = site.data.people.people | where: "type", "Alumni" | first %}
+    {% if alumni_group and alumni_group.list.size > 0 %}
+        <div class="mt-5">
+        <h4 style="font-weight: 500 !important; text-transform: uppercase; margin-bottom: 3rem; color: #777;">Alumni</h4>
+        <div class="row my-3">
+            {% assign alumni = alumni_group.list | sort: "member_since" %}
+            {% for person in alumni %}
             <div class="col-6 col-sm-4 col-md-3 col-lg-2 col-xl-1-5 text-center mb-4">
                 {% if person.website %}
                 <a href="{{ person.website }}" target="_blank" rel="noopener noreferrer">
                     <img src="{{ 'assets/images/people/' | append: person.image | relative_url }}"
-                         alt="{{ person.name }}"
-                         class="img-fluid rounded mb-2"
-                         style="max-width: 100px; height: auto;">
+                        alt="{{ person.name }}"
+                        class="img-fluid rounded mb-2"
+                        style="max-width: 70px; height: auto;">
                 </a>
                 {% else %}
-                    <img src="{{ 'assets/images/people/' | append: person.image | relative_url }}"
-                         alt="{{ person.name }}"
-                         class="img-fluid rounded mb-2"
-                         style="max-width: 100px; height: auto;">
+                <img src="{{ 'assets/images/people/' | append: person.image | relative_url }}"
+                    alt="{{ person.name }}"
+                    class="img-fluid rounded mb-2"
+                    style="max-width: 70px; height: auto;">
                 {% endif %}
 
-                <p style="font-size: 0.85rem; font-weight: 500; color: #ED5532; margin-bottom: 0.25rem;">
-                    {{ person.name }}
+                <p style="font-size: 0.8rem; font-weight: 500; color: #ED5532; margin-bottom: 0.25rem;">
+                {{ person.name }}
                 </p>
-                <p style="font-size: 0.8rem; color: #777; margin-bottom: 0;">
-                    {{ type }}
+                {% if person.next_position %}
+                <p style="font-size: 0.75rem; color: #777; margin-bottom: 0; font-style: italic;">
+                  {% if person.prior_position %}
+                    {{ person.prior_position }}
+                    <br>
+                  {% endif %}
+                  {{ person.next_position }}
                 </p>
-            </div>
-            {% assign counter = counter | plus: 1 %}
+                {% endif %}
+                </div>
             {% endfor %}
-        {% endfor %}
-    </div>
+        </div>
+        </div>
+    {% endif %}
 </div>
 
 <div class="container" style="text-align: center; margin-top: 4rem;">

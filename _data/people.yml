@@ -12,7 +12,7 @@ people:
       - name: Zhiping (Arya) Zhang
         website: https://www.zhipingzhang.com/
         email: arya.zhangpika@gmail.com
-        bio: Zhiping explores how people perceive privacy issues related to AI systems, and investigates how to align the AI models or agentic systems with people’s privacy preferences.
+        bio: Zhiping explores how people perceive privacy issues related to AI systems, and investigates how to align the AI models or agentic systems with people's privacy preferences.
         image: zhiping.png
         twitter: https://x.com/zhipinghci
         google_scholar: https://scholar.google.com/citations?user=z2iBZvEAAAAJ&hl=en
@@ -46,20 +46,6 @@ people:
         bio:
         google_scholar: https://scholar.google.com/citations?user=Eqigjc4AAAAJ&hl=en
         member_since: 2024
-      - name: William Namgyal
-        website: 
-        email: 
-        bio:
-        google_scholar: 
-        image: sample.png
-        member_since: 2024
-      - name: Yaoyao Wu
-        website: 
-        email: 
-        bio:
-        google_scholar: 
-        image: sample.png
-        member_since: 2024
       - name: Eryue (Yolanda) Xu
         website: https://sites.google.com/view/eryue/bio
         email: 
@@ -74,3 +60,23 @@ people:
         google_scholar: 
         image: jijie.png
         member_since: 2024
+  - type: "Alumni"
+    list:
+      - name: William Namgyal
+        website:
+        email:
+        bio:
+        google_scholar:
+        image: sample.png
+        member_since: 2024
+        prior_position: "Former Intern"
+        next_position: "Next Position: Undergrad @ UC Berkeley"
+      - name: Yaoyao Wu
+        website: 
+        email: 
+        bio:
+        google_scholar: 
+        image: sample.png
+        member_since: 2024
+        prior_position: "Former Intern"
+        next_position: "Next Position at Apple"
