@@ -1,4 +1,11 @@
 project:
+  - title: "Autonomy Matters: A Study on Personalization-Privacy Dilemma in LLM Agents"
+    authors: Zhiping Zhang, Yi Evie Zhang, Freda Shi, Tianshi Li
+    venue: Preprint
+    venue_class: preprint
+    description: "Large Language Model (LLM) agents require personal information for personalization in order to better act on users' behalf in daily tasks, but this raises privacy concerns and a personalization-privacy dilemma. Agent's autonomy introduces both risks and opportunities, yet its effects remain unclear. To better understand this, we conducted a 3×3 between-subjects experiment (N=450) to study how agent's autonomy level and personalization influence users' privacy concerns, trust and willingness to use, as well as the underlying psychological processes. We find that personalization without considering users' privacy preferences increases privacy concerns and decreases trust and willingness to use. Autonomy moderates these effects: Intermediate autonomy flattens the impact of personalization compared to No- and Full autonomy conditions. Our results suggest that rather than aiming for perfect model alignment in output generation, balancing autonomy of agent's action and user control offers a promising path to mitigate the personalization-privacy dilemma."
+    image: autonomymatters.png
+    arxiv: https://arxiv.org/abs/2510.04465
   - title: "Privacy Leakage Overshadowed by Views of AI: A Study on Human Oversight of Privacy in Language Model Agent"
     authors: Zhiping Zhang, Bingcan Guo, Tianshi Li
     venue: Preprint
