@@ -97,9 +97,16 @@ title: Publication
             {% assign venue_color = "rgba(255, 105, 24, 0.251)" %}
             {% assign venue_lower = pub.venue | downcase %}
             {% if venue_lower contains 'chi' %}
-              {% assign venue_color = "#D2E186" %}
+              {% assign venue_color = "#C2d8b8" %}
             {% elsif venue_lower contains 'cscw' %}
-              {% assign venue_color = "#90d1d3" %}
+              {% assign venue_color = "#b1d2e0" %}
+            {% elsif venue_lower contains 'neurips' %}
+              {% assign venue_color = "#fbcfc9" %}
+            {% elsif venue_lower contains 'uist' %}
+              {% assign venue_color = "#C9B7E8" %}
+            {% elsif venue_lower contains 'preprint' %}
+              {% assign venue_color = "#fdf1e5" %}
+
             {% endif %}
 
             <p class="mb-1" style="font-size: .9rem; font-weight: 200 !important;">
