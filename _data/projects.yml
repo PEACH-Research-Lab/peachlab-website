@@ -1,4 +1,11 @@
 project:
+  - title: "Operationalizing Data Minimization for Privacy-Preserving LLM Prompting"
+    authors: Jijie Zhou, Niloofar Mireshghallah, Tianshi Li
+    venue: ICLR 2026
+    venue_class: iclr
+    description: "The rapid deployment of large language models (LLMs) in consumer applications has led to frequent exchanges of personal information. To obtain useful responses, users often share more than necessary, increasing privacy risks via memorization, context-based personalization, or security breaches. We present a framework to formally define and operationalize data minimization: for a given user prompt and response model, quantifying the least privacy-revealing disclosure that maintains utility, and we propose a priority-queue tree search to locate this optimal point within a privacy-ordered transformation space. We evaluated the framework on four datasets spanning open-ended conversations (ShareGPT, WildChat) and knowledge-intensive tasks with single-ground-truth answers (CaseHold, MedQA), quantifying achievable data minimization with nine LLMs as the response model. Our results demonstrate that larger frontier LLMs can tolerate stronger data minimization while maintaining task quality than smaller open-source models (85.7% redaction for GPT-5 vs. 19.3% for Qwen2.5-0.5B). By comparing with our search-derived benchmarks, we find that LLMs struggle to predict optimal data minimization directly, showing a bias toward abstraction that leads to oversharing. This suggests not just a privacy gap, but a capability gap: models may lack awareness of what information they actually need to solve a task."
+    image: autodm.png
+    arxiv: https://arxiv.org/abs/2510.03662
   - title: "Autonomy Matters: A Study on Personalization-Privacy Dilemma in LLM Agents"
     authors: Zhiping Zhang, Yi Evie Zhang, Freda Shi, Tianshi Li
     venue: Preprint
@@ -6,13 +13,6 @@ project:
     description: "Large Language Model (LLM) agents require personal information for personalization in order to better act on users' behalf in daily tasks, but this raises privacy concerns and a personalization-privacy dilemma. Agent's autonomy introduces both risks and opportunities, yet its effects remain unclear. To better understand this, we conducted a 3×3 between-subjects experiment (N=450) to study how agent's autonomy level and personalization influence users' privacy concerns, trust and willingness to use, as well as the underlying psychological processes. We find that personalization without considering users' privacy preferences increases privacy concerns and decreases trust and willingness to use. Autonomy moderates these effects: Intermediate autonomy flattens the impact of personalization compared to No- and Full autonomy conditions. Our results suggest that rather than aiming for perfect model alignment in output generation, balancing autonomy of agent's action and user control offers a promising path to mitigate the personalization-privacy dilemma."
     image: autonomymatters.png
     arxiv: https://arxiv.org/abs/2510.04465
-  - title: "Operationalizing Data Minimization for Privacy-Preserving LLM Prompting"
-    authors: Jijie Zhou, Niloofar Mireshghallah, Tianshi Li
-    venue: Preprint
-    venue_class: preprint
-    description: "The rapid deployment of large language models (LLMs) in consumer applications has led to frequent exchanges of personal information. To obtain useful responses, users often share more than necessary, increasing privacy risks via memorization, context-based personalization, or security breaches. We present a framework to formally define and operationalize data minimization: for a given user prompt and response model, quantifying the least privacy-revealing disclosure that maintains utility, and we propose a priority-queue tree search to locate this optimal point within a privacy-ordered transformation space. We evaluated the framework on four datasets spanning open-ended conversations (ShareGPT, WildChat) and knowledge-intensive tasks with single-ground-truth answers (CaseHold, MedQA), quantifying achievable data minimization with nine LLMs as the response model. Our results demonstrate that larger frontier LLMs can tolerate stronger data minimization while maintaining task quality than smaller open-source models (85.7% redaction for GPT-5 vs. 19.3% for Qwen2.5-0.5B). By comparing with our search-derived benchmarks, we find that LLMs struggle to predict optimal data minimization directly, showing a bias toward abstraction that leads to oversharing. This suggests not just a privacy gap, but a capability gap: models may lack awareness of what information they actually need to solve a task."
-    image: autodm.png
-    arxiv: https://arxiv.org/abs/2510.03662
   - title: "PrivacyMotiv: Speculative Persona Journeys for Empathic and Motivating Privacy Reviews in UX Design"
     authors: Zeya Chen, Jianing Wen, Ruth Schmidt, Yaxing Yao, Toby Jia-Jun Li, Tianshi Li
     venue: Preprint
