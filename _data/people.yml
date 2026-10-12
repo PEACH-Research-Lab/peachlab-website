@@ -30,7 +30,14 @@ people:
         bio:
         google_scholar: 
         member_since: 2025
-  - type: "Intern"
+      - name: Raio Huang
+        website: https://ethicsinsociety.stanford.edu/people/raio-huang
+        email: 
+        image: raio.jpg
+        bio:
+        google_scholar: 
+        member_since: 2026
+  - type: "PhD Collaborator"
     list:
       - name: Zeya Chen
         website: https://www.linkedin.com/in/zeya-chen/
@@ -38,13 +45,6 @@ people:
         image: zeya.jpg
         bio:
         google_scholar: 
-        member_since: 2024
-      - name: Bingcan (Gloria) Guo
-        website: https://bguoac.info
-        email: bi.guo@northeastern.edu
-        image: bingcan.jpg
-        bio:
-        google_scholar: https://scholar.google.com/citations?user=Eqigjc4AAAAJ&hl=en
         member_since: 2024
       - name: Eryue (Yolanda) Xu
         website: https://sites.google.com/view/eryue/bio
@@ -55,12 +55,21 @@ people:
         member_since: 2024
   - type: "Alumni"
     list:
+      - name: Bingcan (Gloria) Guo
+        website: https://bguoac.info
+        email: bi.guo@northeastern.edu
+        image: bingcan.jpg
+        bio:
+        google_scholar: https://scholar.google.com/citations?user=Eqigjc4AAAAJ&hl=en
+        member_since: 2024
+        prior_position: "Former Intern"
+        next_position: "Next Position: PhD Student @ UCLA"
       - name: William Namgyal
         website:
         email:
         bio:
         google_scholar:
-        image: sample.png
+        image: william.jpeg
         member_since: 2024
         prior_position: "Former Intern"
         next_position: "Next Position: Undergrad @ UC Berkeley, then CEO of Luel"
@@ -69,7 +78,7 @@ people:
         email: 
         bio:
         google_scholar: 
-        image: sample.png
+        image: yaoyao.jpeg
         member_since: 2024
         prior_position: "Former Intern"
         next_position: "Next Position at Apple"
