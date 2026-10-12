@@ -4,7 +4,7 @@ list: # format date as dd/mm/yyyy
     description: "We have two papers accepted at NeurIPS 2026: a position paper on why LLM privacy requires a lifecycle-wide approach, and The AI Observatory in the Evaluations and Datasets Track! Congrats to Arya, and huge thanks to our amazing collaborators Niloofar Mireshghallah, Shayne Longpre, Anka Reuel, and the whole AI Observatory team!"
   - title: "Two papers accepted at COLM 2026"
     date: "09/07/2026"
-    description: "We have two papers accepted at COLM 2026! CIDER is a dataset of people's contextual disclosure boundaries for aligning LLMs with individual privacy preferences. Our second paper shows that an LLM agent's autonomy level reshapes how personalization affects privacy concerns and trust. Congrats to Gloria, Yolanda, Gigi, and Arya, and thanks to our collaborators Yi Evie Zhang and Freda Shi!"
+    description: "We have two papers accepted at COLM 2026! One paper shows that an LLM agent's autonomy level reshapes how personalization affects privacy concerns and trust. Our second paper introduces CIDER, a dataset of people's contextual disclosure boundaries for aligning LLMs with individual privacy preferences. Congrats to Arya, Gloria, Yolanda, and Gigi, and thanks to our collaborators Yi Evie Zhang and Freda Shi!"
   - title: "One paper accepted at ICLR 2026"
     date: "26/01/2026"
     description: "We have one paper on operationalizing data minimization for LLM prompting accepted at ICLR 2026!"
