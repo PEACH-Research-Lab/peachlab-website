@@ -15,20 +15,15 @@
 	--background-without-opacity: rgba(255, 255, 255, 0.7);
 	--column-width: 42rem;
 	--column-margin-top: 4rem;
-	--header-height: 4rem; 
-	--content-top: calc(var(--header-height) + 5rem);
+	--content-top: 1.5rem;
 }
 
-header,
-  .navbar {
-	position: fixed;
+header {
+	position: sticky;
 	top: 0;
-	left: 0;
-	width: 100%;
-	height: var(--header-height);
 	z-index: 1000;
-	background: var(--pure-white); /* match your design */
-  }
+	background: var(--pure-white);
+}
   
 
 body {
@@ -45,6 +40,19 @@ body {
 
 .header-content {
 	padding: 2rem 10rem 0 10rem !important;
+}
+
+.navbar-brand {
+	flex: 0 1 auto;
+	min-width: 0;
+	max-width: calc(100% - 4rem);
+}
+
+.site-logo {
+	display: block;
+	width: 190px;
+	max-width: 100%;
+	height: auto;
 }
 
 .page-content {
@@ -145,16 +153,22 @@ h4 {
 }
 
 @media screen and (max-width: 1200px) {
+	.header-content {
+		padding: 2rem 5rem 0 5rem !important;
+	}
 	.page-content {
-		padding: 0 5rem !important;
+		padding: var(--content-top) 5rem 0 5rem !important;
 	}
     footer {
 	    padding: 2rem 5rem !important;
     }
 }
 @media screen and (max-width: 991px) {
+	.header-content {
+		padding: 2rem 1rem 0 1rem !important;
+	}
 	.page-content {
-		padding: 0 1rem !important;
+		padding: var(--content-top) 1rem 0 1rem !important;
 	}
     footer {
 	    padding: 2rem 1rem !important;
@@ -162,8 +176,11 @@ h4 {
 }
 
 @media screen and (max-width: 575px) {
+	.header-content {
+		padding: 1rem .3rem 0 .3rem !important;
+	}
 	.page-content {
-		padding: 0 .3rem !important;
+		padding: var(--content-top) .3rem 0 .3rem !important;
 	}
     footer {
 	    padding: 2rem .3rem !important;
